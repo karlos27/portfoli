@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Card from "../components/common/Card";
 import "./AboutMe.css";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaGithub , FaDocker, FaCode, FaRunning, FaMusic, FaCoffee, FaGlobeEurope } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaGithub , FaDocker, FaCode } from "react-icons/fa";
 import { SiVite, SiDjango, SiPostgresql, SiSqlite, SiFigma, SiGimp } from "react-icons/si";
 import { MdPhoneIphone  } from "react-icons/md";
 
@@ -51,19 +51,34 @@ function AboutMe() {
           alt="Perfil"
           className="about__image"
         />
-        <div>
-          <h1>{t("aboutMe.title")}</h1>
-          <h2 className="about__subtitle">{t("aboutMe.subtitle")}</h2>
+        <div className="about__text">
+          <div>
+            <h1>{t("aboutMe.title")}</h1>
+            <h2 className="about__subtitle">{t("aboutMe.subtitle")}</h2>
+            <p className="about__subtitle">{t("aboutMe.telf")}</p>
+            <p className="about__subtitle">{t("aboutMe.email")}</p>
+          </div>
+
+          <div className="about__contact-inline">
+            <a href="mailto:csegarra@coamb.cat?subject=Contacte%20des%20del%20portfoli"
+               className="contact__button">
+              {t("aboutMe.emailto")}
+            </a>
+          </div>
+
           <p className="about__description">{t("aboutMe.description")}</p>
+
           <button className="btn-more" onClick={toggleMore}>
             {showMore ? t("aboutMe.moreButtonHide") : t("aboutMe.moreButtonShow")}
           </button>
+
           {showMore && (
             <p className="about__extra">
               {t("aboutMe.extraText")}
             </p>
           )}
         </div>
+
       </div>
 
       <div className="about__skills">
@@ -100,6 +115,7 @@ function AboutMe() {
         </Card>
         </div>
       </div>
+
     </section>
   );
 }

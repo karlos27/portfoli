@@ -16,7 +16,11 @@
           "moreButtonShow": "Mostrar més",
           "moreButtonHide": "Mostrar menys",
           "extraText": "Sóc una persona curiosa i constant, que gaudeix d’aprendre i de resoldre reptes tècnics.",
-          "fun": "Dades curioses"
+          "contact": "Contacta",
+          "telf": "Telf. 647354884",
+          "email": "csegarra@coamb.cat",
+          "emailto": "Envia'm un missatge"
+          
         },
         "experience": {
           "title": "Experiència",
@@ -73,7 +77,10 @@
           "moreButtonShow": "Mostrar más",
           "moreButtonHide": "Mostrar menos",
           "extraText": "Soy una persona curiosa y constante, que disfruta aprendiendo y resolviendo retos técnicos.",
-          "fun": "Datos curiosos"
+          "contact": "Contacta",
+          "telf": "Telf. 647354884",
+          "email": "csegarra@coamb.cat",
+          "emailto": "Enviam un mensaje"
         },
         "experience": {
           "title": "Experiencia",
@@ -131,7 +138,10 @@
           "moreButtonShow": "Show more",
           "moreButtonHide": "Show less",
           "extraText": "I consider myself a curious and consistent person who enjoys learning and solving technical challenges.",
-          "fun": "Fun facts"
+          "contact": "Contact",
+          "telf": "Telf. 647354884",
+          "email": "csegarra@coamb.cat",
+          "emailto": "Send me a message"
         },
         "experience": {
           "title": "Experience",
