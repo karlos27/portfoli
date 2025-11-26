@@ -1,0 +1,176 @@
+{
+    "ca": {
+      "translation": {
+        "nav": {
+          "aboutMe": "Sobre mi",
+          "experience": "Experiència"
+        },
+        "aboutMe": {
+          "title": "Sobre mi",
+          "subtitle": "Desenvolupador web i tècnic ambiental",
+          "description": "Sóc en Carlos, desenvolupador web amb coneixements en React, Django i OpenLayers, i amb formació en medi ambient i energies renovables. M’agrada combinar tecnologia i sostenibilitat.",
+          "skills": "Habilitats",
+          "skillsFrontend": "Frontend",
+          "skillsBackend": "Backend",
+          "skillsTools": "Eines",
+          "moreButtonShow": "Mostrar més",
+          "moreButtonHide": "Mostrar menys",
+          "extraText": "Sóc una persona curiosa i constant, que gaudeix d’aprendre i de resoldre reptes tècnics.",
+          "fun": "Dades curioses"
+        },
+        "experience": {
+          "title": "Experiència",
+          "education": "Formació",
+          "projects": "Projectes",
+          "educationItems": {
+            "degree": {
+              "dates": "2006 - 2012",
+              "title": "Llicenciatura en Ciències Ambientals",
+              "place": "Universitat de Girona"
+            },
+            "master": {
+              "dates": "2021 - 2022",
+              "title": "Màster en Energies Renovables",
+              "place": "UNIBA (online)"
+            }
+          },
+          "projectsItems": {
+            "dataambitus": {
+              "title": "DataAmbitus",
+              "description": "Plataforma per gestionar i visualitzar dades ambientals amb mapes, informes i gràfics."
+            },
+            "lafarra": {
+              "title": "La Farra Town",
+              "description": "Web social per compartir viatges, experiències i esdeveniments amb amics.",
+              "linkLabel": "Visita la web"
+            },
+            "portfolio": {
+              "title": "Portfolio React",
+              "description": "CV i portfoli personal amb suport multiidioma i disseny responsive.",
+              "linkLabel": "Visita el repo"
+            }
+          }
+        },
+        "footer": {
+          "rights": "Tots els drets reservats"
+        }
+      }
+    },
+    "es": {
+      "translation": {
+        "nav": {
+          "aboutMe": "Sobre mí",
+          "experience": "Experiencia"
+        },
+        "aboutMe": {
+          "title": "Sobre mí",
+          "subtitle": "Desarrollador web y técnico ambiental",
+          "description": "Soy Carlos, desarrollador web con conocimientos en React, Django y OpenLayers, y con formación en medio ambiente y energías renovables. Me gusta combinar tecnología y sostenibilidad.",
+          "skills": "Habilidades",
+          "skillsFrontend": "Frontend",
+          "skillsBackend": "Backend",
+          "skillsTools": "Herramientas",
+          "moreButtonShow": "Mostrar más",
+          "moreButtonHide": "Mostrar menos",
+          "extraText": "Soy una persona curiosa y constante, que disfruta aprendiendo y resolviendo retos técnicos.",
+          "fun": "Datos curiosos"
+        },
+        "experience": {
+          "title": "Experiencia",
+          "education": "Formación",
+          "projects": "Proyectos",
+
+          "educationItems": {
+            "degree": {
+              "dates": "2006 - 2012",
+              "title": "Licenciatura en Ciencias Ambientales",
+              "place": "Universitat de Girona"
+            },
+            "master": {
+              "dates": "2021 - 2022",
+              "title": "Máster en Energías Renovables",
+              "place": "UNIBA (online)"
+            }
+          },
+          "projectsItems": {
+            "dataambitus": {
+              "title": "DataAmbitus",
+              "description": "Plataforma para gestionar y visualizar datos ambientales con mapas, informes y gráficos."
+            },
+            "lafarra": {
+              "title": "La Farra Town",
+              "description": "Web social para compartir viajes, experiencias y eventos con amigos.",
+              "linkLabel": "Visita la web"
+            },
+            "portfolio": {
+              "title": "Portfolio React",
+              "description": "CV y portfolio personal con soporte multiidioma y diseño responsive.",
+              "linkLabel": "Visita el repo"
+            }
+          }
+        },
+        "footer": {
+          "rights": "Todos los derechos reservados"
+        }
+      }
+    },
+    "en": {
+      "translation": {
+        "nav": {
+          "aboutMe": "About me",
+          "experience": "Experience"
+        },
+        "aboutMe": {
+          "title": "About me",
+          "subtitle": "Web developer and environmental technician",
+          "description": "I'm Carlos, a web developer with knowledge in React, Django and OpenLayers, and a background in environmental science and renewable energy. I like to combine technology and sustainability.",
+          "skills": "Skills",
+          "skillsFrontend": "Frontend",
+          "skillsBackend": "Backend",
+          "skillsTools": "Tools",
+          "moreButtonShow": "Show more",
+          "moreButtonHide": "Show less",
+          "extraText": "I consider myself a curious and consistent person who enjoys learning and solving technical challenges.",
+          "fun": "Fun facts"
+        },
+        "experience": {
+          "title": "Experience",
+          "education": "Education",
+          "projects": "Projects",
+
+          "educationItems": {
+            "degree": {
+              "dates": "2006 - 2012",
+              "title": "Bachelor’s Degree in Environmental Sciences",
+              "place": "University of Girona"
+            },
+            "master": {
+              "dates": "2021 - 2022",
+              "title": "Master’s in Renewable Energy",
+              "place": "UNIBA (online)"
+            }
+          },
+          "projectsItems": {
+            "dataambitus": {
+              "title": "DataAmbitus",
+              "description": "Platform to manage and visualize environmental data with maps, reports and charts."
+            },
+            "lafarra": {
+              "title": "La Farra Town",
+              "description": "Social web to share trips, experiences and events with friends.",
+              "linkLabel": "Visit the website"
+            },
+            "portfolio": {
+              "title": "React Portfolio",
+              "description": "Personal CV and portfolio with multi-language support and responsive design.",
+              "linkLabel": "Visit the repo"
+            }
+          }
+        },
+        "footer": {
+          "rights": "All rights reserved"
+        }
+      }
+    }
+  }
+  

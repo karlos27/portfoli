@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+}
+.about {
+    max-width: 960px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+/* foto i text */
+.about__profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+/* imatge de perfil */
+.about__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+}  
+.about__subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4b5563;
+    margin-top: 0.2rem;
+}  
+.about__description {
+    margin-top: 0.75rem;
+    line-height: 1.6;
+}
+/* botó toogle */
+.btn-more {
+    margin-top: 0.8rem;
+    background: none;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}  
+.btn-more:hover {
+    color: #1e40af;
+}  
+.btn-more:active {
+    transform: scale(0.95);
+}
+/* secció habilitats */
+.about__skills h2 {
+    margin-bottom: 1rem;
+}  
+.about__skills-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+/*media queries*/
+@media (max-width: 900px) {
+  .about__skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .about__skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about__profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .funfacts__grid {
+    grid-template-columns: 1fr;
+  }
+}
+  
